@@ -15,7 +15,7 @@ namespace Plus
         public const int SC_CLOSE = 0xF060;
         private static readonly ILog log = LogManager.GetLogger("Plus.Program");
 
-        [DllImport("Kernel32")]
+        /*[DllImport("Kernel32")]
         private static extern bool SetConsoleCtrlHandler(EventHandler handler, bool add);
 
         [DllImport("user32.dll")]
@@ -27,11 +27,11 @@ namespace Plus
         [DllImport("kernel32.dll", ExactSpelling = true)]
         private static extern IntPtr GetConsoleWindow();
 
-        [SecurityPermission(SecurityAction.Demand, Flags = SecurityPermissionFlag.ControlAppDomain)]
+        [SecurityPermission(SecurityAction.Demand, Flags = SecurityPermissionFlag.ControlAppDomain)]*/
 
         public static void Main(string[] Args)
         {
-            DeleteMenu(GetSystemMenu(GetConsoleWindow(), false), SC_CLOSE, MF_BYCOMMAND);
+            //DeleteMenu(GetSystemMenu(GetConsoleWindow(), false), SC_CLOSE, MF_BYCOMMAND);
 
             XmlConfigurator.Configure();
 
@@ -53,7 +53,7 @@ namespace Plus
             }
         }
 
-
+        
         private static void MyHandler(object sender, UnhandledExceptionEventArgs args)
         {
             Logging.DisablePrimaryWriting(true);
