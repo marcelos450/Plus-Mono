@@ -2,7 +2,6 @@
 using System.Linq;
 using System.Text;
 using System.Collections.Generic;
-using System.Diagnostics.Eventing.Reader;
 using Plus.HabboHotel.Rooms;
 
 namespace Plus.Communication.Packets.Outgoing.Navigator
