@@ -6057,3 +6057,4 @@
 2016-01-06 21:47:38,203 INFO  - ConnectionManager >> Successfully setup GameSocketManager on port (30000)!
 2016-01-06 21:47:38,203 INFO  - ConnectionManager >> Maximum connections per IP has been set to [2]!
 2016-01-06 21:47:38,210 INFO  - Plus.PlusEnvironment >> EMULATOR -> READY! (1 s, 374 ms)
+2016-10-07 20:55:11,484 ERROR - Plus.PlusEnvironment >> Failed to connect to the specified MySQL server.
