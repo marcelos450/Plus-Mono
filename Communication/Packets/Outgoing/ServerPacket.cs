@@ -68,7 +68,7 @@ namespace Plus.Communication.Packets.Outgoing
         public void WriteString(string s) // d
         {
             WriteShort(s.Length);
-            WriteBytes(Encoding.GetBytes(s), false);
+            WriteBytes(Encoding.UTF8.GetBytes(s), false);
         }
 
         public void WriteShort(int s) // d
