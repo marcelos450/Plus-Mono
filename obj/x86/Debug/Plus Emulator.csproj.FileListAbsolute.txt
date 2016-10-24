@@ -143,3 +143,6 @@ C:\Users\Sledmore\Desktop\PRODUCTION-201601012205-226667486\bin\Debug\Plus Emula
 C:\Users\Sledmore\Desktop\PRODUCTION-201601012205-226667486\bin\Debug\log4net.dll
 C:\Users\Sledmore\Desktop\PRODUCTION-201601012205-226667486\bin\Debug\MySql.Data.dll
 C:\Users\Sledmore\Desktop\PRODUCTION-201601012205-226667486\bin\Debug\log4net.xml
+C:\Users\Alex\Documents\GitHub\Plus-Mono\bin\Debug\Plus Emulator.exe.config
+C:\Users\Alex\Documents\GitHub\Plus-Mono\obj\x86\Debug\Plus Emulator.exe
+C:\Users\Alex\Documents\GitHub\Plus-Mono\obj\x86\Debug\Plus Emulator.pdb
